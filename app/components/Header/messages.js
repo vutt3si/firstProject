@@ -20,4 +20,8 @@ export default defineMessages({
     id: `${scope}.dopsapi`,
     defaultMessage: 'Dog API',
   },
+  todo: {
+    id: `${scope}.todo`,
+    defaultMessage: 'To Do',
+  },
 });

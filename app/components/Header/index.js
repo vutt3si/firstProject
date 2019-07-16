@@ -24,6 +24,9 @@ function Header() {
         <HeaderLink to="/dogsapi">
           <FormattedMessage {...messages.dogs} />
         </HeaderLink>
+        <HeaderLink to="/todo">
+          <FormattedMessage {...messages.todo} />
+        </HeaderLink>
       </NavBar>
     </div>
   );

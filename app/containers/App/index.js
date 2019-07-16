@@ -13,6 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import DogsApiPage from 'containers/DogsApiPage';
+import ToDo from 'containers/ToDo';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
@@ -43,6 +44,7 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="/dogsapi" component={DogsApiPage} />
+        <Route path="/todo" component={ToDo} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
